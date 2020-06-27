@@ -11,7 +11,7 @@
 	<form action="Players" method="POST">
 		<h3>Agregar Player a Team</h3>
 		<br>
-		id team <input type="text" name= "idTeam" value="${idTeam}">
+		<input hidden="hidden" name= "idTeam" value="${idTeam}">
 		<p>First name : </p> <input type="text" name="fname" id="fname">
 		<br>
 		<p>Last name:</p> <input type="text" name="lname" id="lname">
